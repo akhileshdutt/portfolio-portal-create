@@ -1,3 +1,4 @@
+
 export const Skills = () => {
   const skillCategories = [
     {
@@ -10,7 +11,7 @@ export const Skills = () => {
     },
     {
       title: "Technologies/Frameworks",
-      skills: ["React JS", "Node JS", "Express", "MongoDB", "Git", "GitHub", "Springboot"]
+      skills: ["React JS", "Node JS", "Express", "MongoDB", "Git", "GitHub"]
     },
     {
       title: "Core Skills",
