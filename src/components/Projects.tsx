@@ -16,7 +16,7 @@ export const Projects = () => {
       description: "Complete information architecture and UI/UX design for a food delivery platform. Features comprehensive user journey mapping, intuitive navigation, and engaging visual design to enhance the food ordering experience.",
       tech: ["UI/UX Design", "Information Architecture", "Figma", "User Journey Mapping"],
       date: "2024",
-      figma: "https://www.figma.com/board/c9hnlpnuf5wD0qtnVLBR9q/INFORMATION-ARCHITECTURE-FOR-FOOD-DELIVERY-APP--Community---Community-?t=ZloqZkpxhult0W2H-6",
+      figma: "https://www.figma.com/design/DoedTdrhA2upKLZrACpFyi/CA4-High-Fidelity?node-id=0-1&t=VA9TmK5nmkzDvYgO-1",
       logo: "/lovable-uploads/24da526e-65a7-4d13-911e-03307e0bf87c.png"
     }
   ];
