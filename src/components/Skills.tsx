@@ -1,17 +1,20 @@
-
 export const Skills = () => {
   const skillCategories = [
+    {
+      title: "UI/UX Design",
+      skills: ["Figma", "User Research", "Prototyping", "Information Architecture", "User Journey Mapping", "Wireframing", "Visual Design", "Responsive Design"]
+    },
     {
       title: "Languages",
       skills: ["Java", "JavaScript", "TypeScript", "HTML", "CSS"]
     },
     {
       title: "Technologies/Frameworks",
-      skills: ["React JS", "Node JS", "Express", "MongoDB", "Figma", "Git", "GitHub", "Springboot"]
+      skills: ["React JS", "Node JS", "Express", "MongoDB", "Git", "GitHub", "Springboot"]
     },
     {
       title: "Core Skills",
-      skills: ["Data Structures and Algorithms", "Problem-Solving", "Responsive Web Design", "Full-Stack Development"]
+      skills: ["Data Structures and Algorithms", "Problem-Solving", "Full-Stack Development", "User-Centered Design"]
     }
   ];
 
