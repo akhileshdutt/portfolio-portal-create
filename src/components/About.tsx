@@ -1,4 +1,6 @@
 
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+
 export const About = () => {
   return (
     <section id="about" className="py-20 px-6 bg-white">
@@ -8,7 +10,17 @@ export const About = () => {
         </h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="flex flex-col items-center md:items-start">
+            <Avatar className="w-48 h-48 mb-6 border-4 border-gradient-to-r from-blue-500 to-purple-500 shadow-xl">
+              <AvatarImage 
+                src="/lovable-uploads/9f12728a-1941-48a5-b088-b49742cadbe5.png" 
+                alt="Shivangi Maurya"
+                className="object-cover"
+              />
+              <AvatarFallback className="text-2xl bg-gradient-to-r from-blue-500 to-purple-500 text-white">
+                SM
+              </AvatarFallback>
+            </Avatar>
             <p className="text-lg text-gray-600 mb-6">
               I'm a passionate Computer Science and Engineering student at Lovely Professional University Punjab, 
               with a strong foundation in full-stack development and a CGPA of 7.03.
