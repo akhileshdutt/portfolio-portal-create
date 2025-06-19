@@ -1,9 +1,8 @@
-
 import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-20 px-6 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="contact" className="py-20 px-6 bg-gradient-to-br from-pink-50 to-orange-100">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           Get In Touch

@@ -1,4 +1,3 @@
-
 import { ExternalLink, Figma } from "lucide-react";
 
 export const Projects = () => {
@@ -22,7 +21,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 px-6 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="projects" className="py-20 px-6 bg-gradient-to-br from-purple-50 to-pink-100">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           UI/UX Design Projects
